@@ -1,4 +1,3 @@
 User-agent: *
-Disallow:
-
+Allow: /
 Sitemap: https://vishalpal4170912.github.io/RoundEyesTechnologiesScholarship/sitemap.xml
