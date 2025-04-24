@@ -1,0 +1,258 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6b2dbd
+  
+}
+
+/* Background Image applied to full page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: 
+    linear-gradient(to right, rgba(16, 1, 104, 0.87), rgba(121, 51, 179, 0.863)), 
+    url("Images/hex-textured-background-networking-ErEIDr-U (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ 
+  
+}
+
+header {
+  background-color: rgb(5, 20, 158,0.1); /* transparent dark for logo and nav readability */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+  color: #25078fdc;
+}
+
+.logo {
+  height: 40px;
+  width: 100px;
+
+}
+
+
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  color:#eeedf1;
+}       
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffd166;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  color: white;
+  max-width: 1200px;
+  margin: 3px;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.hero h2 {
+  color: rgb(50, 110, 241);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #c5baba;
+}
+
+.btn {
+  background-color: #4c1bd4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #090774;
+  color: #cbecf7;
+}
+
+.about-section {
+  padding: 4rem 2rem;
+  color: white;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.about-header1{
+  color: #000000;
+  
+}
+
+.custom-line {
+  height: 1px;
+  background: linear-gradient(to right, #6b21a8, #ea580c, #1e40af);
+  margin: 1.5rem 0;
+  border-radius: 999px;
+}
+
+.gradient-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #6b21a8, #ea580c, #1e40af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.boxes-container {
+  display: flex;               
+  gap: 2rem;                  
+  flex-wrap: wrap;             
+  justify-content: space-between;
+  padding: 15px; 
+}
+
+.who-box {
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: #ffffff;
+  line-height: 1.6;
+  flex: 1;                     
+  min-width: 100px;             
+  max-width: 300px;             
+}
+
+
+.box1 { background-color: #2e86de; }
+.box2 { background-color: #38ada9; }
+.box3 { background-color: #e58e26; }
+.box4 { background-color: #6a89cc; }
+.box5 { background-color: #60a3bc; }
+
+
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto 2rem auto;
+}
+
+
+.footer {
+  background-color: rgba(5, 20, 160, 0.1);
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+.footer-box h4 {
+  margin-bottom: 1rem;
+  color: #ffd166;
+  text-decoration-line: underline;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-box a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-box a:hover {
+  color: #ffd166;
+}
+
+.footer-box p{
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 1rem;
+  
+}
+
+
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+  
+
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  color: #c5c5c5;
+}
+
