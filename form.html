@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSR Scholarship Application</title>
+  <link rel="stylesheet" href="form.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <h2>CSR Scholarship Application</h2>
+    <form id="scholarshipForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="">--Select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="course">Course / Program</label>
+        <input type="text" id="course" name="course" required>
+      </div>
+      <div class="form-group">
+        <label for="income">Family Income (per annum)</label>
+        <input type="text" id="income" name="income" required>
+      </div>
+      <div class="form-group">
+        <label for="sop">Statement of Purpose</label>
+        <textarea id="sop" name="sop" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="fileUpload">Upload Documents (PDF)</label>
+        <input type="file" id="fileUpload" name="fileUpload" accept="application/pdf" required>
+      </div>
+      <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('scholarshipForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("Your application has been submitted successfully!");
+    });
+  </script>
+</body>
+</html>
