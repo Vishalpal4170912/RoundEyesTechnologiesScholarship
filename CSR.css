@@ -278,7 +278,7 @@ header {
   font-size: 14px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 700px;
+  padding-top: 150px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   transition: transform 0.3s ease;
