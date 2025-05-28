@@ -283,10 +283,5 @@ header {
   cursor: pointer;
   transition: transform 0.3s ease;
   transform: translateY(10px);
-}
-
-
-.live-chat-btn {
-  ...
-  margin-top: 10px; /* 👈 Iska bhi use kar sakte hain */
+  margin-top: 90px;
 }
