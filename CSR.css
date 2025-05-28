@@ -283,5 +283,5 @@ header {
   cursor: pointer;
   transition: transform 0.3s ease;
   transform: translateY(10px);
-  margin-top: 200px;
+  margin-top: 500px;
 }
