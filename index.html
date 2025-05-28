@@ -92,6 +92,32 @@
     </div>
   </section>
   
+<!-- Live Chat Button -->
+<div id="live-chat-button" onclick="startLiveChat()">Live<br>Chat</div>
+
+<!-- Salesforce Live Agent hidden buttons -->
+<div id="liveagent_button_online"></div>
+<div id="liveagent_button_offline"></div>
+
+<!-- Salesforce Live Agent Scripts -->
+<script type='text/javascript' src='https://c.la1-c2cs-phx.salesforceliveagent.com/content/g/js/58.0/deployment.js'></script>
+<script type='text/javascript'>
+  // Replace with your actual Salesforce IDs
+  liveagent.init('https://d.la1-c2cs-phx.salesforceliveagent.com/chat', 'YOUR_DEPLOYMENT_ID', 'YOUR_ORG_ID');
+
+  if (!window._laq) { window._laq = []; }
+  window._laq.push(function () {
+    liveagent.showWhenOnline('YOUR_BUTTON_ID', document.getElementById('liveagent_button_online'));
+    liveagent.showWhenOffline('YOUR_BUTTON_ID', document.getElementById('liveagent_button_offline'));
+  });
+
+  function startLiveChat() {
+    liveagent.startChat('YOUR_BUTTON_ID');
+  }
+</script>
+
+
+
   
   
   
