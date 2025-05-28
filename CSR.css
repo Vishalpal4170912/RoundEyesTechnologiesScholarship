@@ -257,30 +257,3 @@ header {
 }
 
 
-
-/* Live Chat Button Style */
-#live-chat-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #0070d2;
-  color: white;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
-  padding: 12px 0;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-  transition: all 0.3s ease;
-}
-
-#live-chat-button:hover {
-  background-color: #005fb2;
-  transform: scale(1.05);
-}
-
-
