@@ -259,7 +259,7 @@ header {
 /* Container for positioning both buttons */
 .header-actions {
   position: fixed;
-  top: 90px;
+  top: 900px;
   right: 20px;
   display: flex;
   align-items: center;
